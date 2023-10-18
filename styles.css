@@ -1,0 +1,90 @@
+body, html {
+  height: 100%;
+  margin: 0 auto;
+  
+}
+
+.first-part {
+ background-image:linear-gradient(rgba(6, 6, 6, 0.7), rgba(7, 7, 7, 0.7)), url("birthday-cake-1600-x-900-background-dkyvj3926195b7h5.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  font-family: cursive;
+  
+}
+
+.second-part {
+  text-align: right;
+  position: relative;
+  top: 30%;
+  left:45%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.second-part button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: right;
+  cursor: pointer;
+}
+
+.second-part button:hover {
+  background-color: #8b0d69;
+  color: white;
+}
+
+.container mt-3
+{
+ font-family:arial, sans-serif;
+}
+.featurette-heading{
+font-size:50px;
+padding-top:50px;
+padding-left:50px;
+font-family:Brush Script MT, cursive;
+}
+
+.text-body-secondary{
+ font-size:36px;
+ padding-top:30px;
+ padding-left:50px;
+}
+.lead{
+padding-left:50px;
+}
+.col:hover
+{
+transform:scale(1.1);
+}
+.chef-container{
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left:3px;
+}
+
+.chef-container img {
+width:100.5%;
+vertical-align: middle;}
+
+.chef-container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.image
+{
+border-radius:50%;
+margin-left:30%;
+}
